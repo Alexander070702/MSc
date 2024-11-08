@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#tetris-board {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.tetris-row {
+    display: flex;
+}
+
+.tetris-cell {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ccc;
+}
